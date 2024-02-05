@@ -1,6 +1,6 @@
 # Karina Gassler
 
-[WebUI Version: 0.7.28](https://github.com/StoicDreams/RustWebUI)
+[WebUI Version: 0.7.32](https://github.com/StoicDreams/RustWebUI)
 
 Personal website for Karina Gassler.
 

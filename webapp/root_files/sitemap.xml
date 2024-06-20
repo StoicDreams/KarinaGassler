@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://www.karinagassler.com/</loc>
-		<lastmod>2024-06-12</lastmod>
+		<loc>https://www.karinagassler.com"/"</loc>
+		<lastmod>2024-06-20</lastmod>
 	</url>
 	<url>
-		<loc>https://www.karinagassler.com/terms</loc>
-		<lastmod>2024-06-12</lastmod>
+		<loc>https://www.karinagassler.com"/about"</loc>
+		<lastmod>2024-06-20</lastmod>
 	</url>
 	<url>
-		<loc>https://www.karinagassler.com/privacy</loc>
-		<lastmod>2024-06-12</lastmod>
+		<loc>https://www.karinagassler.com"/privacy"</loc>
+		<lastmod>2024-06-20</lastmod>
+	</url>
+	<url>
+		<loc>https://www.karinagassler.com"/terms"</loc>
+		<lastmod>2024-06-20</lastmod>
 	</url>
 </urlset>

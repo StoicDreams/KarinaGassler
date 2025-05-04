@@ -1,8 +1,8 @@
 # Karina Gassler
 
-[Version: 0.1.2](https://github.com/StoicDreams/KarinaGassler)
+[Version: 0.1.3](https://github.com/StoicDreams/KarinaGassler)
 
-[WebUI Version: 0.10.11](https://github.com/StoicDreams/WebUI)
+[WebUI Version: 0.11.2](https://github.com/StoicDreams/WebUI)
 
 Personal website for Karina Gassler.
 

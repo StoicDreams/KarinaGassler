@@ -15,7 +15,7 @@
 			gtag('config', 'G-6C6EXXLTWT');
 		}
 	</script>
-	<title>Interior Design 3d Rendering Specialist</title>
+	<title>Maison Gassler | Textiles, Wallpaper & Interiors</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="robots" content="index, follow">
@@ -34,6 +34,10 @@
 	<link href="Logo.svg" rel="icon" type="image/svg+xml" sizes="any" />
 	<link rel="manifest" href="app.webmanifest">
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
 	<link href="https://cdn.myfi.ws/css/webui.min.css" rel="stylesheet" />
 	<link data-trunk href="css/app.min.css" rel="css" />
 	<script src="https://cdn.myfi.ws/webui/loader.min.js"></script>
@@ -42,65 +46,77 @@
 	<link data-trunk href="d" rel="copy-dir" data-target-path="d" />
 	<link data-trunk href="wc" rel="copy-dir" data-target-path="wc" />
 	<link data-trunk href="pkg" rel="copy-dir" data-target-path="/" />
+	<link data-trunk href="img" rel="copy-dir" data-target-path="img" />
 
 	<!--Web Worker-->
 	<script data-trunk type="module" src="src-js/main.js"></script>
 	<link data-trunk href="src-js/worker.js" rel="copy-file" data-target-path="/" />
 	<!--End Web Worker-->
 
-	<meta name="theme-color" content="#FF2E46" />
+	<meta name="theme-color" content="#FAF7F2" />
 
-	<meta name="author" content="Erik Gassler">
-	<meta name="description" content="Interior design 3d rendering and visualization specialist.">
+	<meta name="author" content="Karina Gassler">
+	<meta name="description" content="Original textile and wallpaper designs, thoughtful interiors, and timeless inspiration for a home rooted in beauty, tradition, and everyday living.">
 
-	<meta property="og:image" content="https://www.karinagassler.com/Logo.svg">
-	<meta property="og:title" content="Interior Design 3d Rendering Specialist">
+	<meta property="og:site_name" content="Maison Gassler">
+	<meta property="og:image" content="https://www.karinagassler.com/maison-gassler-share.jpg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:image:alt" content="Maison Gassler, Est. 2023">
+	<meta property="og:title" content="Maison Gassler | Textiles, Wallpaper & Interiors">
 	<meta property="og:url" content="https://www.karinagassler.com/">
-	<meta property="og:description" content="Interior design 3d rendering and visualization specialist.">
+	<meta property="og:description" content="Original textile and wallpaper designs, thoughtful interiors, and timeless inspiration for a home rooted in beauty, tradition, and everyday living.">
 
-	<meta name="twitter:title" content="Interior Design 3d Rendering Specialist">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Maison Gassler | Textiles, Wallpaper & Interiors">
 	<meta name="twitter:url" content="https://www.karinagassler.com/">
-	<meta name="twitter:site" content="@stoicdreamsllc">
-	<meta name="twitter:description" content="Interior design 3d rendering and visualization specialist.">
-	<meta name="twitter:image" content="https://www.karinagassler.com/Logo.svg">
+	<meta name="twitter:description" content="Original textile and wallpaper designs, thoughtful interiors, and timeless inspiration for a home rooted in beauty, tradition, and everyday living.">
+	<meta name="twitter:image" content="https://www.karinagassler.com/maison-gassler-share.jpg">
 </head>
 
 <body>
 	<webui-app-config src="appConfig.json"></webui-app-config>
 	<webui-app data-removeclass=".nav|open;.shared|open">
-		<webui-drawer slot="left" class="nav elevation-20" docked="true" data-state="slot|docked" data-moveable data-dockable>
+		<!-- The menu drawer is only opened from the header button on narrow screens. Wide screens use the header links. -->
+		<webui-drawer slot="left" class="nav elevation-20" data-moveable>
 			<webui-flex justify="center" slot="header">
-				<img src="Logo.svg" alt="Karina Gassler" title="Karina Gassler Logo" />
+				<img src="maison-gassler-logo.svg" alt="Maison Gassler" width="176" height="50" />
 			</webui-flex>
 			<webui-nav routes="/nav.json" data-subscribe="app-nav-routes:setNavRoutes"></webui-nav>
 		</webui-drawer>
-		<webui-drawer slot="right" class="shared elevation-20" data-stopclick data-moveable data-state="slot">
-		</webui-drawer>
-		<header slot="header">
-			<button aria-label="open navigation menu" data-toggleclass=".nav|open" class="elevation-10 pa-1 mx-1">
+		<header slot="header" class="site-header">
+			<button class="site-menu-button" aria-label="Open navigation menu" data-toggleclass=".nav|open">
 				<webui-icon icon="hamburger"></webui-icon>
 			</button>
-			<h1 data-subscribe="page-title:innerHTML">Karina Gassler</h1>
-			<h2 data-subscribe="page-subtitle:innerHTML"></h2>
-			<webui-flex grow></webui-flex>
-			<webui-feedback title="Provide us your feedback" data-post="https://api.myfi.ws/feedback/new" data-json-name="message"></webui-feedback>
-			<webui-alerts title="View your notifications" data-title="My Alerts" data-toggleclass=".shared|open"></webui-alerts>
-			<webui-myfi-info>
-				<template slot="panel-content">
-					<webui-alert show variant="info">Example Account Panel</webui-alert>
-				</template>
-			</webui-myfi-info>
+			<a class="site-logo" href="/" aria-label="Maison Gassler home">
+				<img src="maison-gassler-logo.svg" alt="Maison Gassler, Est. 2023" width="268" height="76" />
+			</a>
+			<!-- Keep these links in step with root_files/nav.json, which the narrow screen menu uses. -->
+			<nav class="site-nav" aria-label="Main">
+				<webui-nav-link url="/" name="Home"></webui-nav-link>
+				<webui-nav-link url="/textiles" name="Textiles &amp; Wallpaper"></webui-nav-link>
+				<webui-nav-link url="/interiors" name="Interiors"></webui-nav-link>
+				<webui-nav-link url="/journal" name="Journal"></webui-nav-link>
+				<webui-nav-link url="/about" name="About"></webui-nav-link>
+				<webui-nav-link url="/contact" name="Contact"></webui-nav-link>
+			</nav>
+			<h1 class="visually-hidden" data-subscribe="page-title:innerHTML">Maison Gassler</h1>
 		</header>
 		<noscript>Javascript is required to view this site</noscript>
-		<webui-page-footer copyright="2018" company="Gassler Design">
+		<webui-page-footer copyright="2023" company="Maison Gassler">
 			<webui-next-page theme="tertiary" data-subscribe="page-next-page"></webui-next-page>
-			<webui-flex class="my-3" justify="center" wrap>
-				<webui-link href="/about" icon="circle_exclamation|backing|bordered">About {APP_NAME}</webui-link>
-				<webui-link href="/contact" icon="messages|fill|shade:tri">Contact {APP_NAME}</webui-link>
-				<webui-link href="/privacy" icon="shield_exclamation|backing|bordered">Privacy</webui-link>
-				<webui-link href="/terms" icon="handshake|fill|shade|tri">Terms & Conditions</webui-link>
-			</webui-flex>
-			<webui-stoic-social-links class="mb-2"></webui-stoic-social-links>
+			<nav class="site-footer-links" aria-label="Footer">
+				<a href="/about">About</a>
+				<a href="/contact">Contact</a>
+				<a href="/privacy">Privacy</a>
+				<a href="/terms">Terms &amp; Conditions</a>
+			</nav>
+			<nav class="site-footer-links mb-2" aria-label="Maison Gassler elsewhere">
+				<a href="https://www.spoonflower.com/en/shop?designer=karina_gassler" target="_blank" rel="noopener">Spoonflower</a>
+				<a href="https://www.lemon8-app.com/@kary.gassler?region=us" target="_blank" rel="noopener">Lemon8</a>
+				<a href="https://www.instagram.com/karinagassler/" target="_blank" rel="noopener">Instagram</a>
+				<a href="https://www.shopltk.com/explore/Lamaisongassler" target="_blank" rel="noopener">LTK</a>
+			</nav>
 		</webui-page-footer>
 	</webui-app>
 </body>

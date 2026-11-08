@@ -1,7 +1,7 @@
 {
-    "appName": "Karina Gassler",
-    "appCompanyPossessive": "Gassler Design's",
-    "appCompanySingular": "Gassler Design",
+    "appName": "Maison Gassler",
+    "appCompanyPossessive": "Maison Gassler's",
+    "appCompanySingular": "Maison Gassler",
     "appApi": "https://api.myfi.ws",
     "rolesApi": "user/roles",
     "dynNavRoutes": [

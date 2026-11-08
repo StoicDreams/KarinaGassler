@@ -3,5 +3,30 @@
         "name": "Home",
         "icon": "circle_emoji-house|theme:title|backing|inverted",
         "url": "/"
+    },
+    {
+        "name": "Textiles & Wallpaper",
+        "icon": "circle_emoji-thread|theme:title|backing|inverted",
+        "url": "/textiles"
+    },
+    {
+        "name": "Interiors",
+        "icon": "circle_emoji-couch_and_lamp|theme:title|backing|inverted",
+        "url": "/interiors"
+    },
+    {
+        "name": "Journal",
+        "icon": "circle_emoji-notebook|theme:title|backing|inverted",
+        "url": "/journal"
+    },
+    {
+        "name": "About",
+        "icon": "circle_emoji-house_with_garden|theme:title|backing|inverted",
+        "url": "/about"
+    },
+    {
+        "name": "Contact",
+        "icon": "circle_emoji-envelope|theme:title|backing|inverted",
+        "url": "/contact"
     }
 ]

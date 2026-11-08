@@ -1,10 +1,10 @@
 {
-  "name": "Karina Gassler",
-  "short_name": "Karina Gassler",
+  "name": "Maison Gassler",
+  "short_name": "Maison Gassler",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#FF2E46",
+  "background_color": "#FAF7F2",
+  "theme_color": "#FAF7F2",
   "prefer_related_applications": false,
   "icons": [
     {

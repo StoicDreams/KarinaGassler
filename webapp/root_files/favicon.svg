@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<title>Maison Gassler</title>
+<rect width="64" height="64" rx="12" fill="#69745D"/>
+<g fill="#FAF7F2">
+<path d="M15 27 L22 18 H42 L49 27 Z"/>
+<rect x="17" y="28.5" width="30" height="24"/>
+<path d="M3 37 L10 30 L17 37 Z"/>
+<rect x="4.5" y="38.5" width="12.5" height="14"/>
+<path d="M47 37 L54 30 L61 37 Z"/>
+<rect x="47" y="38.5" width="12.5" height="14"/>
+<rect x="2" y="54" width="60" height="2.5"/>
+</g>
+<g fill="#69745D">
+<rect x="20" y="32" width="4" height="5"/>
+<rect x="40" y="32" width="4" height="5"/>
+<rect x="20" y="42" width="4" height="6"/>
+<rect x="40" y="42" width="4" height="6"/>
+<rect x="8" y="42" width="5.5" height="6"/>
+<rect x="50.5" y="42" width="5.5" height="6"/>
+<rect x="29.8" y="41" width="4.4" height="11.5"/>
+<rect x="26.2" y="31" width="1.8" height="21.5"/>
+<rect x="36" y="31" width="1.8" height="21.5"/>
+</g>
+<path d="M24.5 29.5 L32 21.5 L39.5 29.5 Z" fill="#FAF7F2" stroke="#69745D" stroke-width="1.8"/>
+</svg>

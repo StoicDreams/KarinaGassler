@@ -122,7 +122,7 @@ header.site-header {
 
 .site-header .site-logo img {
 	display: block;
-	height: 76px;
+	height: 126px;
 	width: auto;
 	max-height: none;
 }
@@ -218,7 +218,7 @@ header.site-header {
 	}
 
 	.site-header .site-logo img {
-		height: 52px;
+		height: 80px;
 	}
 
 	.site-header .site-menu-button {
@@ -232,7 +232,7 @@ header.site-header {
 
 @media (max-width: 420px) {
 	.site-header .site-logo img {
-		height: 42px;
+		height: 72px;
 	}
 }
 

@@ -31,7 +31,9 @@
 	<link href="https://cdn.myfi.ws/css/webui.min.css" rel="preload" as="style" />
 	<link href="https://cdn.myfi.ws/webui/loader.min.js" rel="preload" as="script" />
 
-	<link href="Logo.svg" rel="icon" type="image/svg+xml" sizes="any" />
+	<link href="favicon.ico" rel="icon" sizes="48x48" />
+	<link href="favicon.svg" rel="icon" type="image/svg+xml" sizes="any" />
+	<link href="apple-icon.png" rel="apple-touch-icon" />
 	<link rel="manifest" href="app.webmanifest">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -80,7 +82,7 @@
 		<!-- The menu drawer is only opened from the header button on narrow screens. Wide screens use the header links. -->
 		<webui-drawer slot="left" class="nav elevation-20" data-moveable>
 			<webui-flex justify="center" slot="header">
-				<img src="maison-gassler-logo.svg" alt="Maison Gassler" width="176" height="50" />
+				<img src="maison-gassler-share.svg" alt="Maison Gassler" width="152" height="80" />
 			</webui-flex>
 			<webui-nav routes="/nav.json" data-subscribe="app-nav-routes:setNavRoutes"></webui-nav>
 		</webui-drawer>
@@ -89,7 +91,7 @@
 				<webui-icon icon="hamburger"></webui-icon>
 			</button>
 			<a class="site-logo" href="/" aria-label="Maison Gassler home">
-				<img src="maison-gassler-logo.svg" alt="Maison Gassler, Est. 2023" width="268" height="76" />
+				<img src="maison-gassler-share.svg" alt="Maison Gassler, Est. 2023" width="240" height="126" />
 			</a>
 			<!-- Keep these links in step with root_files/nav.json, which the narrow screen menu uses. -->
 			<nav class="site-nav" aria-label="Main">

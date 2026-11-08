@@ -11,7 +11,7 @@
 <li><span class="mg-label">Email</span><a href="mailto:karina@gassler.design">karina@gassler.design</a></li>
 <li><span class="mg-label">Shop Fabric &amp; Wallpaper</span><a href="https://www.spoonflower.com/en/shop?designer=karina_gassler" target="_blank" rel="noopener">Spoonflower</a></li>
 <li><span class="mg-label">Follow Along</span><a href="https://www.lemon8-app.com/@kary.gassler?region=us" target="_blank" rel="noopener">Lemon8</a></li>
-<li><span class="mg-label">Instagram</span><a href="https://www.instagram.com/karinagassler/" target="_blank" rel="noopener">@karinagassler</a></li>
+<li><span class="mg-label">Instagram</span><a href="https://www.instagram.com/lamaisongassler/" target="_blank" rel="noopener">@lamaisongassler</a></li>
 <li><span class="mg-label">Shop My Home</span><a href="https://www.shopltk.com/explore/Lamaisongassler" target="_blank" rel="noopener">LTK</a></li>
 <li><span class="mg-label">Design Studio</span><a href="https://www.gassler.design" target="_blank" rel="noopener">Gassler Design</a></li>
 </ul>

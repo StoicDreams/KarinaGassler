@@ -1,4 +1,4 @@
-<webui-data data-page-title="Maison Gassler" data-page-subtitle="The Art of Living Beautifully"></webui-data>
+<webui-data data-page-title="Maison Gassler" data-page-subtitle="The Art of Living Beautifully" data-page-description="Maison Gassler: thoughtful interiors, original French and Swedish inspired textile and wallpaper designs, and a journal for a home rooted in beauty."></webui-data>
 
 <section class="mg-hero" aria-label="Welcome">
 <picture>

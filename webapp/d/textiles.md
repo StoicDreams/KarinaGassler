@@ -1,4 +1,4 @@
-<webui-data data-page-title="Textiles & Wallpaper" data-page-subtitle="Original patterns by Maison Gassler"></webui-data>
+<webui-data data-page-title="Textiles & Wallpaper" data-page-subtitle="Original patterns by Maison Gassler" data-page-description="Original fabric and wallpaper patterns inspired by French and Swedish traditions, with florals and stripes, printed to order through Spoonflower."></webui-data>
 
 <section class="mg-hero mg-banner mg-plain" aria-label="Textiles and Wallpaper">
 <div class="mg-hero-text">

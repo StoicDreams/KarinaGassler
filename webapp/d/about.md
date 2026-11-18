@@ -1,4 +1,4 @@
-<webui-data data-page-title="About Karina Gassler and Maison Gassler" data-page-subtitle="Our Story"></webui-data>
+<webui-data data-page-title="About Karina Gassler and Maison Gassler" data-page-subtitle="Our Story" data-page-description="Karina Gassler, designer and 3D artist, shares the story behind Maison Gassler: her patterns, home renovation, and the places that inspire them."></webui-data>
 
 <section class="mg-hero mg-banner mg-plain" aria-label="Our Story">
 <div class="mg-hero-text">

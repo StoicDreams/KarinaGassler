@@ -1,4 +1,4 @@
-<webui-data data-page-title="Contact Maison Gassler" data-page-subtitle=""></webui-data>
+<webui-data data-page-title="Contact Maison Gassler" data-page-subtitle="" data-page-description="Write to Karina about a pattern, a collaboration, or just to say hello, and find her shop, Instagram, Lemon8, and design studio links."></webui-data>
 
 <section class="mg-section">
 <div class="mg-split">

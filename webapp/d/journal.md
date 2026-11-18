@@ -1,4 +1,4 @@
-<webui-data data-page-title="The Journal" data-page-subtitle="Seasonal inspiration, creative projects, and life at home"></webui-data>
+<webui-data data-page-title="The Journal" data-page-subtitle="Seasonal inspiration, creative projects, and life at home" data-page-description="Notes from a countryside home: gardens and hydrangeas, travels in England and France, and handmade projects that inspire Maison Gassler."></webui-data>
 
 <section class="mg-hero mg-banner mg-plain" aria-label="The Journal">
 <div class="mg-hero-text">

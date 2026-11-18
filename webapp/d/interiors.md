@@ -1,4 +1,4 @@
-<webui-data data-page-title="Interiors" data-page-subtitle="Projects, design ideas, and spaces that tell a story"></webui-data>
+<webui-data data-page-title="Interiors" data-page-subtitle="Projects, design ideas, and spaces that tell a story" data-page-description="Follow our home renovation room by room, from the guest bedroom and bath to white oak floors and the theater room, with design ideas along the way."></webui-data>
 
 <section class="mg-hero mg-banner mg-plain" aria-label="Interiors">
 <div class="mg-hero-text">

@@ -1,6 +1,6 @@
 # Karina Gassler
 
-[Version: 0.1.29](https://github.com/StoicDreams/KarinaGassler)
+[Version: 0.1.30](https://github.com/StoicDreams/KarinaGassler)
 
 [WebUI](https://github.com/StoicDreams/WebUI)
 

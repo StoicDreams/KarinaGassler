@@ -36,9 +36,6 @@
 	<link href="apple-icon.png?v=a7a15dfdb6" rel="apple-touch-icon" />
 	<link rel="manifest" href="app.webmanifest?v=847ba69cea">
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@500&display=swap" rel="stylesheet">
 
 	<script>
 		// Web UI loads from the local MyFiCDN server (MyFiCDN/PowerShell/RunLocal.ps1) when the site runs locally (through /webui-cdn/ on
@@ -46,6 +43,9 @@
 		// so framework changes show before they are published, and from cdn.myfi.ws everywhere else.
 		window.webuiCdn = /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname) ? 'http://localhost:3180/' : webuiLocal ? '/webui-cdn/' : 'https://cdn.myfi.ws/';
 		document.write('<link href="' + webuiCdn + 'css/webui.min.css" rel="stylesheet" />');
+		document.write('<link href="' + webuiCdn + 'fonts/cormorant-garamond.min.css" rel="stylesheet" />');
+		document.write('<link href="' + webuiCdn + 'fonts/eb-garamond.min.css" rel="stylesheet" />');
+		document.write('<link href="' + webuiCdn + 'fonts/montserrat.min.css" rel="stylesheet" />');
 	</script>
 	<link href="css/app.min.css?v=080fb6bf78" rel="stylesheet" />
 	<script>document.write('<script src="' + webuiCdn + 'webui/loader.min.js"></' + 'script>');</script>
@@ -88,7 +88,7 @@
 	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/nav-link.min.js" crossorigin="anonymous" />
 	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/next-page.min.js" crossorigin="anonymous" />
 	<link rel="preload" as="script" href="https://cdn.myfi.ws/webui/page-footer.min.js" crossorigin="anonymous" />
-	<meta name="webui-prerender" content="4dbe95acd7">
+	<meta name="webui-prerender" content="a97ecdc642">
 </head>
 
 <body>
